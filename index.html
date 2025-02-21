@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dgtal Space</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Text animation header section  -->
+    <header class="my-content">
+      <h1 class="my-text">Latest</h1>
+      <h1 class="my-text second-text">Projects</h1>
+    </header>
+
+    <!-- Infinite spinning button  -->
+    <div class="button-container">
+      <button class="my-button">
+        <div class="button-border"></div>
+        <div class="button-content">
+          <span>See</span> <span>all Projects</span>
+          <span>
+            <svg
+              width="20px"
+              height="20px"
+              viewBox="0 0 16 16"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#000000"
+              class="bi bi-arrow-right-short"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  fill-rule="evenodd"
+                  d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                ></path>
+              </g>
+            </svg>
+          </span>
+        </div>
+      </button>
+    </div>
+
+    <!-- on Scroll cards animation section. -->
+    <div class="cards-section">
+      <div class="cards-container">
+        <div class="card card-1"></div>
+        <div class="card card-2"></div>
+      </div>
+      <div class="center-text">
+        <span class="centerd-text-meta">Jan. 25. Web development</span>
+        <div class="centerd-text-content">
+          After <br />
+          the <br />
+          school <br />
+          bell
+        </div>
+
+        <button class="see-projects-btn">See Projects</button>
+
+        <div class="gradient-bar"></div>
+      </div>
+    </div>
+
+    <!-- GSAP CDNS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/split-type"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
