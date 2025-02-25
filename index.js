@@ -56,15 +56,18 @@ gsap.to(".button-border", {
       opacity: 0
     });
 
-    // Animation timeline
     tl.to(".card-1", {
       x: "-400px",
+      rotateY: "15deg",
+      rotateX: "-5deg",
       ease: "power1.inOut",
       duration: 1
     }, 0);
-
+    
     tl.to(".card-2", {
-      x: "400px",
+      x: "400px", 
+      rotateY: "-15deg",
+      rotateX: "-5deg",
       ease: "power1.inOut",
       duration: 1
     }, 0);

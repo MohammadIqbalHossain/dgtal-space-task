@@ -165,18 +165,21 @@ body {
 .card-1 {
   background: url("https://images.unsplash.com/photo-1555960840-f536ae1e4e95?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
     no-repeat center/cover;
-  transform: perspective(800px) rotateY(10deg) rotateX(5deg);
+  transform-origin: left center;
+  transform: perspective(1000px) rotateY(10deg);
   transition: transform 0.3s ease;
   z-index: 3;
+  height: 400px;
 }
 
 .card-2 {
   background: url("https://cdn.dribbble.com/userupload/18230626/file/original-378cc15f7b8a8decb4bd961f588163ae.png?resize=400x0")
     no-repeat center/cover;
-
-  transform: perspective(300px) rotateX(10deg) rotateY(5deg);
+  transform-origin: right center;
+  transform: perspective(1000px) rotateY(-10deg);
   transition: transform 0.3s ease;
   z-index: 2;
+  height: 400px;
 }
 
 .center-text {
